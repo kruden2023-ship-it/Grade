@@ -1,0 +1,5 @@
+{
+  "name": "Online Grade Viewer",
+  "description": "An online system for students to check their grades and curriculum details using their 4-digit student ID. It covers primary and junior high school levels, displaying subjects, subject codes, and study hours.",
+  "requestFramePermissions": []
+}
