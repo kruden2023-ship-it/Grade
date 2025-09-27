@@ -4,7 +4,7 @@ name: Deploy static content to Pages
 on:
   # Runs on pushes targeting the default branch
   push:
-    branches: ['main'] # หรือ 'master' ถ้า branch หลักของคุณชื่อ master
+    branches: ['main']
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -34,7 +34,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 18 # สามารถเปลี่ยนเป็นเวอร์ชันที่สูงกว่าได้
+          node-version: 18
           cache: 'npm'
       - name: Install dependencies
         run: npm install
